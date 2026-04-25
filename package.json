@@ -1,0 +1,11 @@
+{
+  "name": "demo01-front",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TimeBox Planner MVP frontend + mock backend",
+  "scripts": {
+    "start:web": "python3 -m http.server 4173",
+    "start:api": "node server.js",
+    "check": "node --check app.js && node --check server.js"
+  }
+}
